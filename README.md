@@ -26,7 +26,7 @@ This project implements the **WordCount MapReduce** job using **Hadoop**, applie
 ## ⚙️ MapReduce Workflow
 
 ### 1️⃣ Input
-- **Source:** Raw textual email files.
+- **Source:** Raw email csv files.
 - **Storage:** Hadoop Distributed File System (HDFS).
 
 ### 2️⃣ Splitting
