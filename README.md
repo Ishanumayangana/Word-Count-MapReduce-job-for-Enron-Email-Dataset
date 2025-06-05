@@ -18,7 +18,9 @@ This project implements the **WordCount MapReduce** job using **Hadoop**, applie
 - Contains approximately **500,000 emails**.
 - Emails include **sender**, **receiver**, **subject**, and **body** fields.
 - Originally released by the **Federal Energy Regulatory Commission (FERC)** during the Enron Corporation investigation.
-
+- link of the data set
+  https://www.kaggle.com/datasets/wcukierski/enron-email-dataset
+  
 ---
 
 ## ⚙️ MapReduce Workflow
