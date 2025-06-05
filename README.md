@@ -1,9 +1,9 @@
 # 📊 Cloud Computing Group Assignment_1
 
 ## 👨‍💻 Team Members
-- **EG/2020/4248**
-- **EG/2020/3893**
-- **EG/2020/3851**
+- **EG/2020/4248** - **Umayangana D.M.I.**
+- **EG/2020/3893** - **Dias B.R.S.T.**
+- **EG/2020/3851** - **Bandara W.R.S.M.**
 
 ---
 
@@ -23,8 +23,15 @@ This project implements the **WordCount MapReduce** job using **Hadoop**, applie
   
 ---
 
+## 📂 Hadoop Installation
+-  Here's the documentation link of the Hadoop Installation Steps for Linux(Ubuntu): https://drive.google.com/file/d/1iK62pSt7uILSDrKyx5ImPHozJqZGkdfJ/view?usp=sharing
+
+---
+
 ## ⚙️ MapReduce Workflow
 
+- Here's the documentation link of the steps to Execute Hadoop MapReduce WordCount for Enron Email Dataset: https://drive.google.com/file/d/1oSjnyfojHq9aw2cUXgijdmIGFjXxmwkU/view?usp=drive_link
+  
 ### 1️⃣ Input
 - **Source:** Raw email csv files.
 - **Storage:** Hadoop Distributed File System (HDFS).
