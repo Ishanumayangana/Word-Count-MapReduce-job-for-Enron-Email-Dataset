@@ -68,7 +68,7 @@ Each Reducer:
 - **Apache Hadoop**
 - **MapReduce Programming Model**
 - **HDFS (Hadoop Distributed File System)**
-- **Java (depending on your implementation)**
+- **Java **
 
 ---
 
