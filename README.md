@@ -108,6 +108,10 @@ Contents of the folder:
 
 This folder serves as a backup and reference for all materials related to the project submission.
 
+### Drive link of Hadoop-mapreduce-word-count-Java-program: 
+https://drive.google.com/file/d/1UVvIYcQfuZmJY0x_UlyAli7FkHsO2rz9/view?usp=sharing
+
+
 ---
 
 ## 🚀 Technologies Used
