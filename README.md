@@ -1,8 +1,9 @@
 # 📊 Cloud Computing Group Assignment_1
 
 ## 👨‍💻 Team Members
-- **EG/2020/4248** - **Umayangana D.M.I.**
+
 - **EG/2020/3893** - **Dias B.R.S.T.**
+- **EG/2020/4248** - **Umayangana D.M.I.**
 - **EG/2020/3851** - **Bandara W.R.S.M.**
 
 ---
