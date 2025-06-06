@@ -13,6 +13,14 @@ This project implements the **WordCount MapReduce** job using **Hadoop**, applie
 
 ---
 
+## 📘 Project Introduction
+
+This project implements a Hadoop MapReduce-based word count analysis on the Enron Email Dataset, a publicly available collection of over 500,000 emails exchanged among employees of the Enron Corporation. Using the **WordCount MapReduce** programs, we process and analyze the textual data to identify the most frequently used words across the email communications.
+
+The goal is to demonstrate how Hadoop can efficiently handle large-scale, unstructured large data (over 1 lakh) using parallel processing. This analysis not only serves as a practical application of distributed computing but also provides insights into communication patterns within a real corporate environment.
+
+---
+
 ## 📂 Dataset: Enron Email Dataset
 
 - Contains approximately **500,000 emails**.
@@ -58,9 +66,14 @@ Each Reducer:
 
 ### 6️⃣ Output
 - The final word counts are written back to HDFS for further analysis or usage.
-- Here is the structure of the final output
+- Here is a screenshot of the structure of the final output data after Map-Reducing process using wordcount Map-Reduce:
   
 ![Screenshot 2025-06-05 162955](https://github.com/user-attachments/assets/d6fc5c92-ec1f-481a-80c3-b734becf0425)
+
+The structure of the output is in the format: (word, total_count), where each line represents a unique word feature and the number of times it appeared in the dataset.
+
+**Here's the link of the Output-data files (.csv and .txt) after Map Reducing process:**
+https://drive.google.com/drive/folders/1POQb5G89sBv_a2GB-N5SCP9p4g5cKbdj?usp=sharing
 
 ---
 
