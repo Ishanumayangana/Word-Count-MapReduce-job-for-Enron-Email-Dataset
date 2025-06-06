@@ -18,7 +18,7 @@ This project implements the **WordCount MapReduce** job using **Hadoop**, applie
 - Contains approximately **500,000 emails**.
 - Emails include **sender**, **receiver**, **subject**, and **body** fields.
 - Originally released by the **Federal Energy Regulatory Commission (FERC)** during the Enron Corporation investigation.
-- link of the data set
+- link of the data set:
   https://www.kaggle.com/datasets/wcukierski/enron-email-dataset
   
 ---
@@ -30,10 +30,10 @@ This project implements the **WordCount MapReduce** job using **Hadoop**, applie
 
 ## ⚙️ MapReduce Workflow
 
-- Here's the documentation link of the steps to Execute Hadoop MapReduce WordCount for Enron Email Dataset: https://drive.google.com/file/d/1oSjnyfojHq9aw2cUXgijdmIGFjXxmwkU/view?usp=drive_link
+- Here's the documentation link of the steps to Execute Hadoop MapReduce WordCount Job for Enron Email Dataset: https://drive.google.com/file/d/1oSjnyfojHq9aw2cUXgijdmIGFjXxmwkU/view?usp=drive_link
   
 ### 1️⃣ Input
-- **Source:** Raw email csv files.
+- **Source:** Raw email csv files. (link of the dataset is provided above)
 - **Storage:** Hadoop Distributed File System (HDFS).
 
 ### 2️⃣ Splitting
@@ -75,7 +75,7 @@ Each Reducer:
 ## 📌 Objective
 The primary objective of this MapReduce process is to **efficiently analyze the Enron email dataset (~500,000 emails)** using **Hadoop's distributed computing capabilities**. Specifically, the goal is to **identify and count the frequency of each unique word** across the email dataset, demonstrating Hadoop’s effectiveness in handling **large-scale text processing** tasks.
 
-This project aims to showcase the power of **distributed computing** and **parallel processing** by applying the **MapReduce model** to analyze a real-world dataset at scale.
+This project aims to showcase the power of **distributed computing** and **parallel processing** by applying the **MapReduce model** using Apache Hadoop software to analyze a real-world large dataset (over 1 lakh) at scale.
 
 ---
 
