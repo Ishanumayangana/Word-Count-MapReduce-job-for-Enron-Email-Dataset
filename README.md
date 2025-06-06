@@ -94,15 +94,15 @@ https://drive.google.com/drive/folders/1kvGZrlPIPgTcehGPbMcJxY9kaxJkkOf9?usp=sha
 
 Contents of the folder:
 
-📄 Complete documentation (including Hadoop installation and WordCount process)
+  - 📄 Complete documentation (including Hadoop installation and WordCount process)
 
-💻 Source code and program files (Word-count Map-reduce Program as a zip file)
+  - 💻 Source code and program files (Word-count Map-reduce Program as a zip file)
 
-🖼️ Screenshots of execution steps and output
+  - 🖼️ Screenshots of execution steps and output
 
-📽️ Video demonstration of Hadoop Installation and the MapReduce job
+  - 📽️ Video demonstration of Hadoop Installation and the MapReduce job
 
-📊 Output data files (emails-count.txt, emails-count.csv)
+  - 📊 Output data files (emails-count.txt, emails-count.csv)
 
 This folder serves as a backup and reference for all materials related to the project submission.
 
