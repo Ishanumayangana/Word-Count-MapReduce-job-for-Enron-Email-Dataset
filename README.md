@@ -72,8 +72,12 @@ Each Reducer:
 
 The structure of the output is in the format: (word, total_count), where each line represents a unique word feature and the number of times it appeared in the dataset.
 
-**Here's the link of the Output-data files (.csv and .txt) after Map Reducing process:**
+📁**Here's the link of the Output-data files (.csv and .txt) after Map Reducing process:**
 https://drive.google.com/drive/folders/1POQb5G89sBv_a2GB-N5SCP9p4g5cKbdj?usp=sharing
+
+
+📁**Here is the Drive link with all documentation (Hadoop setup & WordCount steps) and the output files from the Word-count MapReduce process:**
+https://drive.google.com/drive/folders/1kvGZrlPIPgTcehGPbMcJxY9kaxJkkOf9?usp=sharing
 
 ---
 
