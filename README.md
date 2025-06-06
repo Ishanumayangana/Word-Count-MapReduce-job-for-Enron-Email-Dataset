@@ -44,7 +44,8 @@ The goal is to demonstrate how Hadoop can efficiently handle large-scale, unstru
 
 ## ⚙️ MapReduce Workflow
 
-- Here's the documentation link of the steps to Execute Hadoop MapReduce WordCount Job for Enron Email Dataset: https://drive.google.com/file/d/1oSjnyfojHq9aw2cUXgijdmIGFjXxmwkU/view?usp=drive_link
+- Here's the documentation link of the steps to Execute Hadoop MapReduce WordCount Job for Enron Email Dataset:
+  https://drive.google.com/file/d/1462UBM3RH6mASc3KyACK5yH_D_sgqUYX/view?usp=sharing
   
 ### 1️⃣ Input
 - **Source:** Raw email csv files. (link of the dataset is provided above)
