@@ -6,6 +6,11 @@
 - **EG/2020/3851** - **Bandara W.R.S.M.**
 
 ---
+## 📝 Project Title
+
+### Classic Word-Count MapReduce Job for Enron Email Dataset
+
+---
 
 ## 📝 Project Overview
 
@@ -81,6 +86,28 @@ https://drive.google.com/drive/folders/1kvGZrlPIPgTcehGPbMcJxY9kaxJkkOf9?usp=sha
 
 ---
 
+## 📁 Drive Link – Complete Assignment Package
+
+You can access the full assignment package through the Google Drive link below:
+
+https://drive.google.com/drive/folders/1kvGZrlPIPgTcehGPbMcJxY9kaxJkkOf9?usp=sharing
+
+Contents of the folder:
+
+📄 Complete documentation (including Hadoop installation and WordCount process)
+
+💻 Source code and program files (Word-count Map-reduce Program as a zip file)
+
+🖼️ Screenshots of execution steps and output
+
+📽️ Video demonstration of Hadoop Installation and the MapReduce job
+
+📊 Output data files (emails-count.txt, emails-count.csv)
+
+This folder serves as a backup and reference for all materials related to the project submission.
+
+---
+
 ## 🚀 Technologies Used
 - **Apache Hadoop**
 - **MapReduce Programming Model**
@@ -96,4 +123,53 @@ This project aims to showcase the power of **distributed computing** and **paral
 
 ---
 
+## 📊 Results summary (Verified and Analyzed Results)
 
+The MapReduce WordCount process successfully analyzed approximately 500,000 emails from the Enron dataset. The job counted word frequencies across the entire dataset using Hadoop's distributed processing capabilities. The most frequently occurring words were common in corporate communication, such as:
+  Top Frequent Words:
+
+- "the": ~4.9 million occurrences
+
+- "to": ~3.4 million occurrences
+
+- "and", "of", "a": each appeared over 1–2 million times
+
+- These high-frequency terms suggest the dataset is rich in general language, with dense narrative communication typical of business emails.
+
+- While common stop-words dominated the output, the analysis:
+
+- Verified successful execution of the MapReduce job on large-scale input
+
+- Confirmed accurate word count results
+
+- Demonstrated Hadoop’s strength in processing real-world, unstructured data efficiently
+
+- Output Dataset Files:
+
+- emails-count.csv
+
+- emails-count.txt
+
+- Open either file to view the word frequencies.
+  
+- ✅ Below is a screenshot/table showing the Top 20 Word Frequencies from the output.  
+
+  ![image](https://github.com/user-attachments/assets/f9d766a2-325e-489e-a7a3-a7a9e22073b3)
+
+
+
+---
+
+## 🔎 Result Interpretation
+
+The output represents word frequency across the Enron email dataset, allowing analysis of frequent keywords and potential insights into communication patterns within Enron.
+The WordCount MapReduce job executed on the Enron email dataset successfully produced frequencies of words across approximately 500,000 emails. Commonly occurring terms such as "enron," "energy," "meeting," "report," and names of key employees emerged prominently, highlighting core topics and frequent discussion points within the organization.
+The dataset provided insights into the internal communications at Enron, showcasing themes of corporate operations, scheduling meetings, energy trading, and strategic reporting. It clearly reflects Enron’s primary business activities and the nature of corporate discussions occurring during the company’s operational period.
+Regarding performance, the Hadoop framework effectively managed the large-scale data, achieving parallel processing across multiple mapper and reducer tasks. Though the job completed successfully, performance optimization could be improved by fine-tuning Hadoop cluster resources, increasing the number of reducers, or implementing data filtering to reduce irrelevant content early in the processing stage, thus enhancing both accuracy and efficiency.
+
+Suggested Improvements:
+- Preprocessing: Implement additional text-cleaning processes (removing irrelevant headers, footers, or stop-words) to reduce noise and enhance result accuracy.
+-	Resource Optimization: Adjust Hadoop cluster settings (e.g., increase memory allocation, fine-tune mapper and reducer count) to speed up processing.
+-	Advanced Analytics: Explore advanced analytics techniques such as sentiment analysis or topic modeling (e.g., LDA) to derive deeper insights from email content.
+
+---
